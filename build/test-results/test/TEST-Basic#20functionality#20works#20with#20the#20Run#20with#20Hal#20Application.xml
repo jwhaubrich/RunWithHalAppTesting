@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Basic functionality works with the Run with Hal Application" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-23T15:58:21" hostname="Josefs-MacBook-Pro.local" time="2.212">
+  <properties/>
+  <testcase name="Andres logs in to RunWithHal and clicks on the More option" classname="Basic functionality works with the Run with Hal Application" time="2.212"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
