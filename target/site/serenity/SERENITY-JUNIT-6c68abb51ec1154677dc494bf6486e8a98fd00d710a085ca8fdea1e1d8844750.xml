@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Basic functionality works with the Run with Hal Application" skipped="0" tests="1" time="38.62" timestamp="2022-06-25 02:59:46"><testcase name="Andres can click on each of the main tabs"><failure message="Expected condition failed: waiting for AppiumBy.accessibilityId: More Tab 4 of 4 to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'Josefs-MacBook-Pro.local', ip: 'fe80:0:0:0:cf1:f491:ff5d:b8ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for AppiumBy.accessibilityId: More Tab 4 of 4 to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Josefs-MacBook-Pro.local', ip: 'fe80:0:0:0:cf1:f491:ff5d:b8ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for AppiumBy.accessibilityId: More Tab 4 of 4 to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Josefs-MacBook-Pro.local', ip: 'fe80:0:0:0:cf1:f491:ff5d:b8ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+co.tests.screenplay.tasks.TabIterator.performAs(TabIterator.java:13)
+co.tests.screenplay.stepdefinitions.BasicFunctionalityStepDefinitions.heClicksOnHisGoogleAccountAndSignsIn(BasicFunctionalityStepDefinitions.java:9)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)
+</system-err></testcase></testsuite>

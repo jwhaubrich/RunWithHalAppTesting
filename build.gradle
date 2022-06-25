@@ -19,7 +19,7 @@ apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
     implementation 'net.serenity-bdd:serenity-screenplay:3.2.5'
-    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:3.2.5'
+//    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:3.2.5'
     implementation 'net.serenity-bdd:serenity-cucumber:3.2.5'
     implementation 'net.serenity-bdd:serenity-core:3.2.5'
     implementation 'net.serenity-bdd:serenity-ensure:3.2.5'
